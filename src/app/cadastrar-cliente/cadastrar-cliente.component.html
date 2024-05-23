@@ -1,0 +1,17 @@
+<section id="container">
+    
+    <form>
+        <h2>CREATE new Client</h2>
+        <div class="labels">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" name="nome" [(ngModel)]="cliente.nome">
+        </div>
+        <div class="labels">
+            <label for="endereco">Endereço</label>
+            <input type="text" class="form-control" name="endereco" [(ngModel)]="cliente.endereco">
+        </div>
+        <div class="labels">
+            <button type="submit" class="put-button" (click)="cadastrar()">Cadastrar</button>
+        </div>
+    </form>
+</section>

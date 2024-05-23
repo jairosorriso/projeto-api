@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+}
+
+.align {
+    text-align: center;
+}
+
+.edit {
+    background: #250cb2;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+.edit:hover {
+    background: #067444;
+    color: #ffffff;
+
+}
+
+.delete {
+    background: rgb(222, 6, 6);
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+.delete:hover {
+    background: rgb(105, 3, 3);
+    color: #fff;
+}
+
+#container {
+    margin: 0 auto;
+    width: 100%;    
+    padding: 15px 0;
+    height: 100vh;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,59,0.8617646887856705) 100%, rgba(0,212,255,1) 100%);
+}
+
+#container table {   
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#container table thead {
+    background: #262525;
+    padding: 15px 25px;
+    color: #fff;
+}
+
+#container table tbody tr th,td {
+    padding: 15px 25px;
+    color: #120f0f;
+    font-size: 1rem;
+    background: #fff;
+}
+
+#container>table>tbody>tr>th {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(1, 7, 5);
+}

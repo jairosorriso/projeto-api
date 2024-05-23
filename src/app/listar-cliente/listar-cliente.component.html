@@ -1,0 +1,22 @@
+<section id="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Endereço</th>
+                <th>Editar</th>
+                <th>Excluir</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let cliente of clientes">
+                <th scope="row">{{cliente.id}}</th>
+                <td class="align">{{cliente.nome}}</td>
+                <td class="align">{{cliente.endereco}}</td>
+                <td class="align"><a  class="edit" routerLink="../editar/{{cliente.id}}">Editar</a></td>
+                <td class="align"><a  class="delete" routerLink="../excluir/">Excluir</a></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
